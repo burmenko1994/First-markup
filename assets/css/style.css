@@ -437,6 +437,8 @@ html {
 }
 body {
   padding: 0 30px;
+  max-width: 1920px;
+  margin: auto;
   background-image: url(../img/global-bg.jpg);
   background-attachment: fixed;
   background-position: 50% 0;
@@ -722,7 +724,7 @@ a:hover, a:focus {
 }
 .news-block__item {
   margin-bottom: 10px;
-  padding: 5px 0;
+  padding: 5px;
 }
 .news-block__item:hover {
   background-color: rgba(0, 0, 0, 0.1);
